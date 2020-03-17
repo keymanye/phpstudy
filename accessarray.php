@@ -17,13 +17,13 @@ $arr4 = ["person1" => ['name' => "zhangsan", 'address' => 'beijing'],
          "person2" => ['name' => "lisi", 'address' => 'shanghai'],
 ];
 
-echo $arr1[0], $arr1[3] ,'<br />';
-echo $arr2['index1'],'<br />';
-echo $arr2['index3'],'<br />';
+echo $arr1[0], $arr1[3], '<br />';
+echo $arr2['index1'], '<br />';
+echo $arr2['index3'], '<br />';
 //关联数组不能使用 数字下标访问 echo $arr2[2],'<br />';
 var_dump($arr3[1]);
-echo $arr3[1]['address'],'<br />';
-echo $arr4['person1']['name'],'<br />';
+echo $arr3[1]['address'], '<br />';
+echo $arr4['person1']['name'], '<br />';
 var_dump($arr1);
 asort($arr1); //升序
 var_dump($arr1);
